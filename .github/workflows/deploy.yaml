@@ -78,7 +78,6 @@ jobs:
           registryUrl: ${{ env.REGISTRY }}
           registryUsername: ${{ github.actor }}
           registryPassword: ${{ secrets.GH_PAT }}
-          containerAppName: piflow
-          resourceGroup: piflow-rg
+          containerAppName: piflow          
           targetPort: 3000
           imageToDeploy: ${{ steps.meta.outputs.tags }}
