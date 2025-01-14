@@ -1,4 +1,4 @@
-name: Trigger auto deployment for nextjs-auth
+name: Trigger auto deployment for nextjs-blog
 
 # When this action will be executed
 on:
